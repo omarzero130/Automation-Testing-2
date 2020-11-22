@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing-selenium-1">
+
+    <!--
+    see examples at http://testng.org/doc/documentation-main.html#testng-xml
+
+    <suite-files>
+        <suite-file path="./junit-suite.xml" />
+    </suite-files>
+
+    <test name="TimeOut">
+        <classes>
+            <class name="test.timeout.TimeOutTest" />
+            <class name="test.timeout.TimeOutFromXmlTest"/>
+            <class name="test.timeout.TimeOutThreadLocalSampleTest"/>
+                <class name="TestCases.AddToCart"/>
+                <class name="TestCases.AddItem"/> 
+
+        </classes>
+    </test>
+    -->
+    
+    <test name="All tests for Testing-selenium-1">
+        <classes>
+            <class name="TestCases.Login"/>
+            <class name="TestCases.AddItem"/>
+            <class name="TestCases.Checkout"/>
+            <class name="TestCases.CheckOutForm"/>
+            <class name="TestCases.Payment"/>
+            
+            
+            
+        
+
+   
+        </classes>
+    </test>
+
+</suite>

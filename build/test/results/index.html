@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Testing-selenium-1">
+              <span class="suite-name border-passed">Testing-selenium-1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Testing-selenium-1">
+                    <span>C:\Users\omar shalaby\Desktop\Testing\TestingProjects\Testing-selenium-1\build\test\classes\TestCases\TestSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Testing-selenium-1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Testing-selenium-1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Testing-selenium-1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Testing-selenium-1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Testing-selenium-1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Testing-selenium-1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testing-selenium-1" class="hide-methods passed suite-Testing-selenium-1"> (hide)</a> <!-- hide-methods passed suite-Testing-selenium-1 -->
+                      <a href="#" panel-name="suite-Testing-selenium-1" class="show-methods passed suite-Testing-selenium-1"> (show)</a> <!-- show-methods passed suite-Testing-selenium-1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Testing-selenium-1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing-selenium-1" title="TestCases.Checkout" hash-for-method="CheckOut">CheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing-selenium-1" title="TestCases.CheckOutForm" hash-for-method="FormCheckout">FormCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing-selenium-1" title="TestCases.Checkout" hash-for-method="GoToCart">GoToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing-selenium-1" title="TestCases.Login" hash-for-method="LoginTC">LoginTC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing-selenium-1" title="TestCases.Login" hash-for-method="VerifyLoginTC">VerifyLoginTC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing-selenium-1" title="TestCases.AddItem" hash-for-method="addtocart">addtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing-selenium-1" title="TestCases.Payment" hash-for-method="addtocart">addtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testing-selenium-1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testing-selenium-1" class="panel Testing-selenium-1">
+          <div class="suite-Testing-selenium-1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.AddItem</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart">
+                  </a> <!-- addtocart -->
+                  <span class="method-name">addtocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing-selenium-1-class-passed -->
+          <div class="suite-Testing-selenium-1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtocart">
+                  </a> <!-- addtocart -->
+                  <span class="method-name">addtocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing-selenium-1-class-passed -->
+          <div class="suite-Testing-selenium-1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Checkout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckOut">
+                  </a> <!-- CheckOut -->
+                  <span class="method-name">CheckOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GoToCart">
+                  </a> <!-- GoToCart -->
+                  <span class="method-name">GoToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing-selenium-1-class-passed -->
+          <div class="suite-Testing-selenium-1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.CheckOutForm</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FormCheckout">
+                  </a> <!-- FormCheckout -->
+                  <span class="method-name">FormCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing-selenium-1-class-passed -->
+          <div class="suite-Testing-selenium-1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTC">
+                  </a> <!-- LoginTC -->
+                  <span class="method-name">LoginTC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginTC">
+                  </a> <!-- VerifyLoginTC -->
+                  <span class="method-name">VerifyLoginTC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing-selenium-1-class-passed -->
+        </div> <!-- panel Testing-selenium-1 -->
+        <div panel-name="test-xml-Testing-selenium-1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\omar shalaby\Desktop\Testing\TestingProjects\Testing-selenium-1\build\test\classes\TestCases\TestSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Testing-selenium-1&quot;&gt;
+  &lt;test name=&quot;All tests for Testing-selenium-1&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.Login&quot;/&gt;
+      &lt;class name=&quot;TestCases.AddItem&quot;/&gt;
+      &lt;class name=&quot;TestCases.Checkout&quot;/&gt;
+      &lt;class name=&quot;TestCases.CheckOutForm&quot;/&gt;
+      &lt;class name=&quot;TestCases.Payment&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- All tests for Testing-selenium-1 --&gt;
+&lt;/suite&gt; &lt;!-- Testing-selenium-1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testing-selenium-1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testing-selenium-1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">All tests for Testing-selenium-1 (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testing-selenium-1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testing-selenium-1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testing-selenium-1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testing-selenium-1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testing-selenium-1');
+function tableData_Testing-selenium-1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginTC')
+data.setCell(0, 2, 'TestCases.Login')
+data.setCell(0, 3, 15432);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addtocart')
+data.setCell(1, 2, 'TestCases.Payment')
+data.setCell(1, 3, 618);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'FormCheckout')
+data.setCell(2, 2, 'TestCases.CheckOutForm')
+data.setCell(2, 3, 490);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addtocart')
+data.setCell(3, 2, 'TestCases.AddItem')
+data.setCell(3, 3, 267);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'CheckOut')
+data.setCell(4, 2, 'TestCases.Checkout')
+data.setCell(4, 3, 218);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'GoToCart')
+data.setCell(5, 2, 'TestCases.Checkout')
+data.setCell(5, 3, 210);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyLoginTC')
+data.setCell(6, 2, 'TestCases.Login')
+data.setCell(6, 3, 38);
+window.suiteTableData['Testing-selenium-1']= { tableData: data, tableDiv: 'times-div-Testing-selenium-1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-Testing-selenium-1">
+              </div> <!-- times-div-Testing-selenium-1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testing-selenium-1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testing-selenium-1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testing-selenium-1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testing-selenium-1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Openbroswer</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">LoginTC</span>
+                <span class="method-start">7370 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">VerifyLoginTC</span>
+                <span class="method-start">22804 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.AddItem</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addtocart</span>
+                <span class="method-start">22843 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Checkout</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GoToCart</span>
+                <span class="method-start">23110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckOut</span>
+                <span class="method-start">23321 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.CheckOutForm</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">FormCheckout</span>
+                <span class="method-start">23541 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.Payment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addtocart</span>
+                <span class="method-start">24032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">CloseBrowser</span>
+                <span class="method-start">24650 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

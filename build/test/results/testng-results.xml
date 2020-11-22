@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing-selenium-1" duration-ms="24769" started-at="2020-11-21T19:00:58Z" finished-at="2020-11-21T19:01:23Z">
+    <groups>
+    </groups>
+    <test name="All tests for Testing-selenium-1" duration-ms="24769" started-at="2020-11-21T19:00:58Z" finished-at="2020-11-21T19:01:23Z">
+      <class name="TestCases.Login">
+        <test-method status="PASS" signature="Openbroswer()[pri:0, instance:TestCases.Login@2471cca7]" name="Openbroswer" is-config="true" duration-ms="7363" started-at="2020-11-21T21:00:58Z" finished-at="2020-11-21T21:01:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Openbroswer -->
+        <test-method status="PASS" signature="LoginTC()[pri:0, instance:TestCases.Login@2471cca7]" name="LoginTC" duration-ms="15432" started-at="2020-11-21T21:01:05Z" finished-at="2020-11-21T21:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTC -->
+        <test-method status="PASS" signature="VerifyLoginTC()[pri:0, instance:TestCases.Login@2471cca7]" name="VerifyLoginTC" duration-ms="38" started-at="2020-11-21T21:01:21Z" depends-on-methods="TestCases.Login.LoginTC" finished-at="2020-11-21T21:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginTC -->
+      </class> <!-- TestCases.Login -->
+      <class name="TestCases.CheckOutForm">
+        <test-method status="PASS" signature="FormCheckout()[pri:0, instance:TestCases.CheckOutForm@5d3411d]" name="FormCheckout" duration-ms="490" started-at="2020-11-21T21:01:22Z" finished-at="2020-11-21T21:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FormCheckout -->
+      </class> <!-- TestCases.CheckOutForm -->
+      <class name="TestCases.Payment">
+        <test-method status="PASS" signature="addtocart()[pri:0, instance:TestCases.Payment@2d6d8735]" name="addtocart" duration-ms="618" started-at="2020-11-21T21:01:22Z" finished-at="2020-11-21T21:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestCases.Payment@2d6d8735]" name="CloseBrowser" is-config="true" duration-ms="118" started-at="2020-11-21T21:01:23Z" finished-at="2020-11-21T21:01:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestCases.Payment -->
+      <class name="TestCases.AddItem">
+        <test-method status="PASS" signature="addtocart()[pri:0, instance:TestCases.AddItem@5479e3f]" name="addtocart" duration-ms="267" started-at="2020-11-21T21:01:21Z" finished-at="2020-11-21T21:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+      </class> <!-- TestCases.AddItem -->
+      <class name="TestCases.Checkout">
+        <test-method status="PASS" signature="GoToCart()[pri:0, instance:TestCases.Checkout@67117f44]" name="GoToCart" duration-ms="210" started-at="2020-11-21T21:01:21Z" finished-at="2020-11-21T21:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoToCart -->
+        <test-method status="PASS" signature="CheckOut()[pri:0, instance:TestCases.Checkout@67117f44]" name="CheckOut" duration-ms="218" started-at="2020-11-21T21:01:21Z" finished-at="2020-11-21T21:01:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOut -->
+      </class> <!-- TestCases.Checkout -->
+    </test> <!-- All tests for Testing-selenium-1 -->
+  </suite> <!-- Testing-selenium-1 -->
+</testng-results>
